@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #003366; /* Azul escuro */
+            color: white;
+            padding: 1em 0;
+            text-align: left; /* Alinhando à esquerda */
+            position: relative;
+            padding-left: 150px; /* Adiciona espaço à esquerda para o logo */
+            border: 5px solid #FFD700; /* Bordas douradas */
+            border-radius: 10px; /* Bordas arredondadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efeito de profundidade */
+        }
+        header img {
+            width: 113px; /* Define o tamanho da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+        }
+        header h1 {
+            margin: 0;
+        }
+        header h2 {
+            margin: 0;
+            font-weight: normal;
+            color: white; /* Cor branca */
+            font-family: 'Roboto', sans-serif; /* Fonte diferente */
+            font-style: italic; /* Texto em itálico */
+        }
+        header div {
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 20px; /* Espaço entre a imagem e o título */
+        }
+        section {
+            padding: 2em;
+            border-bottom: 1px solid #ccc;
+            margin-top: 2em; /* Distância do header */
+            background-color: #003366; /* Azul escuro */
+            color: white; /* Cor do texto na seção */
+            font-family: 'Roboto', sans-serif; /* Fonte Roboto */
+            font-style: italic; /* Texto em itálico */
+            border: 5px solid #FFD700; /* Bordas douradas */
+            border-radius: 10px; /* Bordas arredondadas */
+        }
+        section h2, section h3 {
+            color: #FFD700; /* Cor dourada para o título da seção */
+            text-decoration: underline; /* Sublinhado */
+        }
+        section img {
+            width: 25%; /* Ajusta a largura da imagem para 25% do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+            display: block; /* Remove o espaço extra abaixo da imagem */
+            margin: 1em auto; /* Espaço acima e abaixo da imagem, e centraliza */
+            border: 5px solid #FFD700; /* Bordas douradas */
+            border-radius: 10px; /* Bordas arredondadas */
+        }
+        .flex-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .flex-container img {
+            width: 25%;
+            height: auto;
+            border: 5px solid #FFD700; /* Bordas douradas */
+            border-radius: 10px; /* Bordas arredondadas */
+        }
+        p {
+            margin: 0.5em 0; /* Margem para separar parágrafos */
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="cpm.png" alt="Logo">
+        <div>
+            <h1>CPM</h1>
+            <h2>rotina escolar</h2>
+        </div>
+    </header>
+
+    <section>
+        <h2>Chegando ao Colégio</h2>
+        <p>
+            O portão do 6° Colégio da Polícia Militar do Paraná se abre às 06h30min e segue aberto até 07h00min. Dentro do período de chegada os alunos devem guardar suas mochilas dentro das salas de aula e fazer presença à primeira formação que ocorre das 06h55min até 07h10min.
+        </p>
+        <p>
+            Na formação ocorre a organização de cada turma em seu respectivo local predefinido, a apresentação de comandantes, o hasteamento da bandeira nacional, paranaense e do colégio e por fim o canto do hino.
+        </p>
+        <img src="1.jpeg" alt="Imagem do Colégio">
+    </section>
+    <section>
+        <h2>Começando as Aulas</h2>
+        <div class="flex-container">
+            <div>
+                <p>
+                    As aulas se inciam à partir das 07h10min e acabam 12h25min.
+                </p>
+                <p>
+                    Sendo que cada aula dura 50 minutos e tendo 6 aulas por dia elas se separam pelos seguintes horários:
+                </p>
+                <p>
+                    1° aula: 07h10 - 08h00
+                </p>
+                <p>
+                    2° aula 08h00 - 08h50
+                </p>
+                <p>
+                    3° aula 08h50 - 09h40 
+                </p>
+                <p>
+                    Intervalo: 09h40 - 09h55
+                </p>
+                <p>
+                    4° aula: 09h55 - 10h45
+                </p>
+                <p>
+                    5° aula: 10h45 - 11h35
+                </p>
+                <p>
+                    6° aula: 11h35 - 12h25
+                </p>
+            </div>
+            <img src="cpm_01.jpg" alt="Imagem da Sala de Aula">
+        </div>
+    </section>
+    <section>
+        <h2>Segunda formação</h2>
+        <p>
+            A segunda formação ocorre às 12h25min, onde ocorre recados finais sobre a semana e os alunos serão dispensados bradando "Uma vez CPM! Sempre CPM!", estando liberados até 12h35min
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nicolas Alexandre Armiliato</p>
+    </footer>
+</body>
+</html>
